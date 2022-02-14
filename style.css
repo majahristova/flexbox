@@ -1,0 +1,128 @@
+
+.main_container {
+    display: flex;
+    background-color: brown;
+    width: 100%;
+    height: 600px;
+    flex-flow: wrap ;
+  align-content: center;
+  justify-content: center;
+ 
+}
+.card {
+    display: flex;
+    width: 400px;
+    height: 130px;
+    padding: 10px;
+    margin: 20px;
+    background-color: green;
+   
+}
+ 
+.boxes_first {
+    display: flex;
+    background-color: beige;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    padding: 5px;
+ 
+}
+ 
+.card_container1 {
+    align-items: flex-end;
+}
+ 
+.boxes_second{
+    display: flex;
+    background-color: beige;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    padding: 5px;
+ 
+}
+ 
+.card_container2{
+    justify-content:  center;
+ 
+}
+ 
+.boxes_third {
+    display: flex;
+    background-color: beige;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    padding: 5px;
+ 
+}
+.card_container3 {
+    justify-content: flex-end;
+}
+ 
+.boxes_four{
+    display: flex;
+    background-color: beige;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    padding: 5px;
+}
+ 
+.card_container4 {
+    justify-content: space-between;
+}
+ 
+.boxes_five {
+    display: flex;
+    background-color: beige;
+    width: 50px;
+    height: 80px;
+    margin: 20px;
+    padding: 5px;
+    color: green;
+    font-weight: bold;
+    align-items: stretch;
+   
+   
+}
+ 
+.boxes_five_unique {
+    display: flex;
+    background-color: beige;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    padding: 5px;
+    color: green;
+    font-weight: bold;
+ 
+}
+.card_container5{
+    justify-content: space-between;
+}
+ 
+.boxes_six {
+    display: flex;
+    background-color: beige;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    padding: 5px;
+}
+ 
+.card_container6 {
+    justify-content: center;
+   
+}
+   
+.boxes_six_unique {
+    display: flex;
+    background-color: beige;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    padding: 5px;
+    flex-grow: 2;
+}
